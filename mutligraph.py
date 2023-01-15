@@ -13,7 +13,6 @@ na_values=['m','M'])
     #na_values allows the data to not be read as chars
 
 
-
 df.fillna(method='ffill', inplace=True)  #replace nans with the prev value -do avg
 
 #make the index date time
@@ -113,3 +112,6 @@ ax1.tick_params(axis='x', labelrotation = 45)
 
 plt.show()
 
+#trend type analysis-  is it going up,down,flat
+#what is the trajectory during an interval
+#what days in chicago started as warm and went down 
